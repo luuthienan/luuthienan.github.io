@@ -33,6 +33,21 @@ links:
   linkedin: https://www.linkedin.com/in/luuthienan/
   github: https://github.com/luuthienan
 
+skills_devicons:
+  - devicon-ruby-plain-wordmark
+  - devicon-rails-plain-wordmark
+  - devicon-html5-plain-wordmark
+  - devicon-css3-plain-wordmark
+  - devicon-sass-original
+  - devicon-javascript-plain
+  - devicon-bootstrap-plain-wordmark
+  - devicon-jquery-plain-wordmark
+  - devicon-ubuntu-plain-wordmark
+  - devicon-git-plain-wordmark
+  - devicon-heroku-original-wordmark
+  - devicon-mysql-plain-wordmark
+  - devicon-postgresql-plain-wordmark
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -44,3 +59,34 @@ links:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+experiences:
+  - name: QUOINE
+    position: Backend Developer
+    start_time: 05/2018
+    end_time: Present
+    projects:
+      - name: QUOINEX, QRYPTOS Backend
+        url: https://quoinex.com
+        description: QUOINEX and QRYPTOS is crypto exchange platforms that allows users to buy bitcoin and other major digital currencies. QUOINEX supports multiple fiat currencies and several of the world's largest crypto coins and tokens. QRYPTOS is only support crypto coins
+        team_size: 10
+        responsibility: Maintaining, discussing with teammates to get clear requirements. Develop feature ICO support for QRYPTOS
+        technology: Ruby on Rails, PostgreSQL, Redis, Heroku
+
+  - name: Golden Owl Consulting
+    position: Intern - Fresher
+    start_time: 06/2016
+    end_time: 01/2018
+    projects:
+      - name: Nexlec
+        url: https://nexlec.com
+        description: Nexlec is a global online market place for Professionals to easily search for career education courses. The training courses include Lectures, Seminars, Practicals, Conferences, and Online Courses
+        team_size: 3
+        responsibility: Discussing with customer and teammates to get clear all requirements. Develop new features
+        technology: Ruby on Rails, HTML5, Stripe API, AWS, Heroku, PostgreSQL
+      - name: Narratrs
+        url: https://play.google.com/store/apps/details?id=com.oneninesocial.narratrs&hl=en
+        description: A mobile app which create content on Facebook and Instagram for brands that pay you for your content today.
+        team_size: 4
+        responsibility: Maintaining, discussing with api team to clear requirements. Develop new UI
+        technology: Javascript, Ionic v1, Cordova

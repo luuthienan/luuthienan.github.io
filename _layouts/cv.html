@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lưu Thiện An - Backend Developer</title>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    {% include meta.html %}
+    {% include font.html %}
+    {% include bootstrap.html %}
+    {% include material.html %}
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/stylesheets/application.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/stylesheets/cv.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  </head>
+
+  <body class="cv">
+    {{ content }}
+  </body>
+</html>

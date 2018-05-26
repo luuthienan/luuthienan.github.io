@@ -1,0 +1,54 @@
+<section id="experiences">
+  <div class="title">
+    <h4 class="text-center"> EXPERIENCES </h4>
+  </div>
+
+  <div class="content">
+    {% for company in site.experiences %}
+      <div class="card-box">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="summary">
+              <h5 class="position">{{ company.position }}</h4>
+              <h5 class="company">{{ company.name}}</h5>
+              <p class="time">{{ company.start_time }} - {{ company.end_time }}</p>
+            </div>
+          </div>
+
+          <div class="col-sm-8">
+            <div class="detail">
+              {% for project in company.projects %}
+                <div class="project">
+                  <h6>
+                    <span class="text-bold">Project: </span>
+                    <span>
+                      <a href="{{ project.url }}">{{ project.name }}</a>
+                    </span>
+                  </h6>
+                  <ul>
+                    <li>
+                      <span class="text-bold">&#8227; Description: </span>
+                      <span>{{ project.description }}</span>
+                    </li>
+                    <li>
+                      <span class="text-bold">&#8227; Team size: </span>
+                      <span>{{ project.team_size }}</span>
+                    </li>
+                    <li>
+                      <span class="text-bold">&#8227; Responsibility: </span>
+                      <span>{{ project.responsibility }}</span>
+                    </li>
+                    <li>
+                      <span class="text-bold">&#8227; Technology: </span>
+                      <span>{{ project.technology }}</span>
+                    </li>
+                  </ul>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

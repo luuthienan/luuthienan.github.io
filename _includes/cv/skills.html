@@ -1,0 +1,17 @@
+<section id="skills">
+  <div class="title">
+    <h4 class="text-center"> SKILLS </h4>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <div class="list-skills">
+        {% for icon in site.skills_devicons %}
+          <div class="skills">
+            <i class="{{ icon }} colored"></i>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
