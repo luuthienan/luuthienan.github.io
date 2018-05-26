@@ -1,0 +1,50 @@
+---
+---
+
+section#introduction {
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .text-intro {
+    color: white;
+    margin: 100px 0;
+
+    .author {
+      font-size: 4rem;
+    }
+
+    .description {
+      font-weight: lighter;
+    }
+
+    .menu-icon-social {
+      margin-top: 30px;
+      ul {
+        list-style: none;
+
+        li {
+          display: inline;
+          padding: 10px;
+
+          a {
+            color: white;
+            font-size: 1.5rem;
+
+            &:hover {
+              color: #bbb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+section#main {
+  background-color: white;
+}
