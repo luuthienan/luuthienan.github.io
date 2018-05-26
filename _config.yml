@@ -27,7 +27,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-social_links:
+links:
   facebook: https://www.facebook.com/lta.anluu
   twitter: https://twitter.com/anluu471
   linkedin: https://www.linkedin.com/in/luuthienan/

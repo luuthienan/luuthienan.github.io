@@ -5,4 +5,57 @@
 layout: home
 ---
 
-{% include home/posts.html %}
+<div class="home-background">
+</div>
+
+<div class="layer"></div>
+
+<div class="content text-center">
+  <div class="container">
+    <h1>LUU THIEN AN</h1>
+    <h4>Developer</h4>
+
+    <ul class="menu-links">
+      <li>
+        <a href="{{ site.links.facebook }}">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ site.links.twitter }}">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ site.links.linkedin }}">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ site.links.github }}">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+
+    <div class="buttons">
+      <div class="row">
+        <div class="col-6 text-right">
+          <a class="waves-effect waves-light btn">
+            <i class="material-icons left">notes</i>
+            BLOG
+          </a>
+        </div>
+        <div class="col-6 text-left">
+          <a href="{{ site.baseurl }}/cv" class="waves-effect waves-light btn">
+            <i class="material-icons left">attachment</i>
+            MY CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
