@@ -8,6 +8,11 @@ body.home {
     height: 100vh;
     background-position: 50% 50%;
     z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
 
   .layer {
