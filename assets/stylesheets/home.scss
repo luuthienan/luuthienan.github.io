@@ -54,3 +54,15 @@ body.home {
     margin-top: 50px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  body.home {
+    .content {
+      top: 50px;
+
+      h1.my-name {
+        font-size: 3rem;
+      }
+    }
+  }
+}
