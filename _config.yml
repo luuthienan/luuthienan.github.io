@@ -37,6 +37,8 @@ links:
   github: https://github.com/luuthienan
   wordpress: "#"
 
+google_analytic_id: UA-121200802-1
+
 skills_devicons:
   - devicon-ruby-plain-wordmark
   - devicon-rails-plain-wordmark
